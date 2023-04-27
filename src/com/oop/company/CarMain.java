@@ -14,6 +14,14 @@ public class CarMain {
         carObj2.weight = 1350.8; // we have changed the value oh wight
         System.out.println(carObj2);
 
+        ElectricCar electricCar = new ElectricCar();
+
+        electricCar.electricEngine = "Example of an engine";
+        electricCar.color = "green";
+        electricCar.manufacturer = "Honda";
+        electricCar.model = "Civic";
+
+        System.out.println(electricCar);
 
     }
 }
