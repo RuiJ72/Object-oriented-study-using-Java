@@ -11,6 +11,11 @@ public class Car {
     Double high;
     Integer velocity = 0;
 
+    // Empty constructor
+    public Car(){
+        // allows  to create an object without passing parameters
+    }
+
 
     // Constructors -> methods that allow you creating objects of this class
     public  Car(String color, String manufacturer, String model, Double weight, Double high){
