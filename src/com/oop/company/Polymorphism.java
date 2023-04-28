@@ -5,7 +5,7 @@ public class Polymorphism {
     public static void main(String[] args) {
 
         // common way in which we create objects
-        Car car1 = new Car();
+        Car car1 = new ElectricCar();
 
         ElectricCar car2 = new ElectricCar();
 

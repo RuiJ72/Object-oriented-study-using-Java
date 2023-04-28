@@ -1,6 +1,6 @@
 package com.oop.company;
 
-public class Car {
+public abstract class Car {
 
 
     // Atributes -> Object Cracateristics
