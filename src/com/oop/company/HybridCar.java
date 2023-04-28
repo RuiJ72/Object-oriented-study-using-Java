@@ -1,6 +1,5 @@
 package com.oop.company;
 
-public class HybridCar {
+public class HybridCar extends Car {
 
-    String hybridEngine;
 }

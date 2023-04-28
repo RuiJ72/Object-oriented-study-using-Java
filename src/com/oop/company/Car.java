@@ -18,7 +18,7 @@ public class Car {
 
 
     // Constructors -> methods that allow you creating objects of this class
-    public  Car(String color, String manufacturer, String model, Double weight, Double high){
+    public Car(String color, String manufacturer, String model, Double weight, Double high){
 
         // assigning parameters from the outside to objects inside the class
         this.color = color;

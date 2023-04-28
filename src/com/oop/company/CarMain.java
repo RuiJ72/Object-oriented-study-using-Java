@@ -21,7 +21,15 @@ public class CarMain {
         electricCar.manufacturer = "Honda";
         electricCar.model = "Civic";
 
+
         System.out.println(electricCar);
+
+        ElectricCar electricCar2 = new ElectricCar("blue", "alfa", "romeo", 1500d, 4.99, "TXT2");
+
+        System.out.println(electricCar2);
+
+        electricCar2.accelerate(50);
+        System.out.println(electricCar2);
 
     }
 }
